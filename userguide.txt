@@ -1,0 +1,11 @@
+** What is the quiz program? **
+This quiz program allows user to take a trivia quiz, view scoreboard, download all of the questios, delete themselves
+from the leaderboard, and view the userguide. In order to use this application, a user needs to have an access to a computer and AWS services.
+** Concept **
+The concept of this application was developed based on the functionalities of AWS S3 and AWS DynamoDB.
+AWS S3 and DynamoDB allows this app to retreive and store information of the questions, score, and user information easily and securely. 
+** Instructions **
+When user chooses to take the quiz, they answer 10 total questions which are 1 point each. The user chooses
+from 4 options (A,B,C,D) and enters their answer. If the answer is correct, the player gets one point, and if the answer is wrong, the player gets 0 point.
+After the 10 questions are completed, the player is shown their final score out of 10.
+To view scoreboard, download questions, delete user from scoreboard, view userguide, or exit the player can enter the corresponding letters in the main menu

@@ -1,0 +1,157 @@
+*** Hello, welcome to the quiz program! ***
+Choose one of the following options: 
+a. Take quiz
+b. View scoreboard
+c. Download all questions
+d. Delete a user from the leaderboard
+e. View user guide
+f. Exit
+a
+Create your username: Mary06
+Username 'Mary06' was successfully created!
+
+1. The Shakespeare play Romeo and Juliet takes place in which Italian City? A.Athens B. Pisa C. Florence D. Verona 
+
+Enter your answer: D
+Correct!
++1 point
+
+2. Which animal has three hearts? A.Whale B. Octopus C. Cow D. Giraffe 
+
+Enter your answer: C
+Incorrect! Correct answer was B. Octopus
+3. Which bird cannot fly? A.Chicken B.Duck C.Ostrich D.Goose 
+
+Enter your answer: C
+Correct!
++1 point
+
+4. Which planet has the most tilt? A.Uranus B.Mercury C.Saturn D.Neptune 
+
+Enter your answer: A
+Correct!
++1 point
+
+5. What is the symbol of Gold on the periodic table? A. Ag B. G C. Au D. Go 
+
+Enter your answer: C
+Correct!
++1 point
+
+6. Which of the following foods cannot go bad? A. Chocolate B. Honey C. Canned meat D. Icecream 
+
+Enter your answer: B
+Correct!
++1 point
+
+7. What material is the Statue of Liberty made of? A.Bronze B. Copper C. Aluminum D. Zinc 
+
+Enter your answer: B
+Correct!
++1 point
+
+8. How many chromosomes do humans have? A. 46 B. 23 C. 28 D. 48 
+
+Enter your answer: A
+Correct!
++1 point
+
+9. What city is known as the "Windy City"? A. Pittsburgh B. New York C. Chicago D. Detroit 
+
+Enter your answer: C
+Correct!
++1 point
+
+10. Who was Disney's first princess? A. Cindrella B. Aurora C. Snow White D. Jasmine 
+
+Enter your answer: C
+Correct!
++1 point
+
+Your total score: 9
+
+Choose one of the following options: 
+a. Take quiz
+b. View scoreboard
+c. Download all questions
+d. Delete a user from the leaderboard
+e. View user guide
+f. Exit
+b
+
+SCOREBOARD
+{'Score': Decimal('9'), 'Username': 'Mary06'}
+{'Score': Decimal('10'), 'Username': 'purva01'}
+{'Score': Decimal('0'), 'Username': 'Purva'}
+Choose one of the following options: 
+a. Take quiz
+b. View scoreboard
+c. Download all questions
+d. Delete a user from the leaderboard
+e. View user guide
+f. Exit
+c
+**** quiz.txt was downloaded successfully! ****
+Choose one of the following options: 
+a. Take quiz
+b. View scoreboard
+c. Download all questions
+d. Delete a user from the leaderboard
+e. View user guide
+f. Exit
+d
+Enter the username you would like to delete: purva01
+ purva01 was successfully deleted from the table
+
+Choose one of the following options: 
+a. Take quiz
+b. View scoreboard
+c. Download all questions
+d. Delete a user from the leaderboard
+e. View user guide
+f. Exit
+b
+
+SCOREBOARD
+{'Score': Decimal('9'), 'Username': 'Mary06'}
+{'Score': Decimal('0'), 'Username': 'Purva'}
+Choose one of the following options: 
+a. Take quiz
+b. View scoreboard
+c. Download all questions
+d. Delete a user from the leaderboard
+e. View user guide
+f. Exit
+e
+
+** What is the quiz program? **
+
+This quiz program allows user to take a trivia quiz, view scoreboard, download all of the questios, delete themselves
+
+from the leaderboard, and view the userguide. In order to use this application, a user needs to have an access to a computer and AWS services.
+
+** Concept **
+
+The concept of this application was developed based on the functionalities of AWS S3 and AWS DynamoDB.
+
+AWS S3 and DynamoDB allows this app to retreive and store information of the questions, score, and user information easily and securely. 
+
+** Instructions **
+
+When user chooses to take the quiz, they answer 10 total questions which are 1 point each. The user chooses
+
+from 4 options (A,B,C,D) and enters their answer. If the answer is correct, the player gets one point, and if the answer is wrong, the player gets 0 point.
+
+After the 10 questions are completed, the player is shown their final score out of 10.
+
+To view scoreboard, download questions, delete user from scoreboard, view userguide, or exit the player can enter the corresponding letters in the main menu
+
+Choose one of the following options: 
+a. Take quiz
+b. View scoreboard
+c. Download all questions
+d. Delete a user from the leaderboard
+e. View user guide
+f. Exit
+f
+Thank you for using the quiz program!
