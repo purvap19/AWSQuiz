@@ -8,6 +8,6 @@ Create a menu driven Python application using AWS and Cloud9 environment
 - Menu should contain at least 6 items
 - Use boto3 as the main library
 ### Description
-This quiz app project allows users to take quiz, view scoerboard, download quiz questions, delete a user, view userguide, or exit. The program first prompts 
+This quiz app project allows users to take quiz, view scoreboard, download quiz questions, delete a user, view userguide, or exit. The program first prompts 
 user to create a username before starting the quiz. 
 The quiz questions are stored in a S3 bucket and the scoreboard is created in the DynamoboDB table. 
